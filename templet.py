@@ -9,6 +9,7 @@ project_name = "textsummerizer"
 
 list_of_file = [
     ".github/workflows/.gitkeep",
+<<<<<<< HEAD
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
@@ -19,6 +20,18 @@ list_of_file = [
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
+=======
+    f"src/{project_name}/_init_.py",
+    f"src/{project_name}/components/_init_.py",
+    f"src/{project_name}/utils/_init_.py",
+    f"src/{project_name}/utils/common.py",
+    f"src/{project_name}/logging/_init_.py",
+    f"src/{project_name}/config/_init_.py",
+    f"src/{project_name}/config/configuration.py",
+    f"src/{project_name}/pipeline/_init_.py",
+    f"src/{project_name}/entity/_init_.py",
+    f"src/{project_name}/constants/_init_.py",
+>>>>>>> ecc67f28359cddbb4e72bf7531858f41e5696092
     "config/config.yaml",
     "params.yaml",
     "app.py",
